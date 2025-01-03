@@ -326,8 +326,6 @@ class VierTank:
         dx[2] = (Q13 + Q23 - Q34 - Q30) / self.st.AT
         dx[3] = (Q24 + Q34 - Q40) / self.st.AT
 
-        print("neuen Text")
-
        
         ######-------!!!!!!Aufgabe Ende!!!!!!-------########
         return dx
